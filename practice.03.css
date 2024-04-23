@@ -1,0 +1,52 @@
+body{
+    background-color: #F0F2F5;
+}
+div{
+    background-color: white;
+    width: 600px;
+    border: 5px solid rgb(236, 231, 231);
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+button{
+    background-color: #0866FF;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    height: 50px;
+    width: 500px;
+    border: 2px solid #0866FF;
+    border-radius: 10px 10px 10px 10px;
+    cursor:pointer;
+    margin: 0% 4%;
+}
+h6{
+    font-family:Helvetica;
+    color: #087EFF;
+    text-align: center;
+    
+}
+
+#signup{
+    background-color: #42B72A;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    height: 50px;
+    width: 300px;
+    border: 2px solid #42B72A;
+    border-radius: 10px 10px 10px 10px;
+    cursor:pointer;
+    margin: 0% 20%;
+}
+input{
+    background-color: #E8F0FE;
+    color: black;
+    height: 50px;
+    width: 500px;
+    border: 2px solid #DDDFE2;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2% 4%;
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* METHOD 1 TO OVERLAP DIVS USING GRID ROW AND COLUMN START */
+
+.background-image-fixed{
+  background-image: url("images/banner-1.jpeg");
+  background-attachment: fixed;
+  height: 400px;
+}
+
+

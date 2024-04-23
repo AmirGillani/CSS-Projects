@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="practice.13.css" />
+    <title>media queries</title>
+  </head>
+  <body>
+
+    <h2>Dynamic Element Addition</h2>
+
+    <button id="addButton">Add Element</button>
+
+    <div id="container">
+        <!-- Elements will be added here -->
+    </div>
+    
+    <script>
+
+    // this will run when DOM is loaded
+
+    document.addEventListener("DOMContentLoaded", function() 
+    {
+    const container = document.getElementById("container");
+    const addButton = document.getElementById("addButton");
+
+    addButton.addEventListener("click", function() {
+        // Create a new element
+        const newElement = document.createElement("p");
+
+        // Create new text block
+        const textNode = document.createTextNode("New Element");
+
+        // Make textNode as child of newElement
+        newElement.appendChild(textNode);
+
+        // Add styles (optional)
+        newElement.style.backgroundColor = "lightblue";
+        newElement.style.padding = "10px";
+        newElement.style.marginBottom = "5px";
+
+        // Append the new element to the container
+        container.appendChild(newElement);
+    });
+});
+
+
+     let array= [1,1,2,2,3,3];
+
+     array.filter((item,index)=>{return item !== item })
+    </script>
+      
+  </body>
+</html>

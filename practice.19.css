@@ -1,0 +1,295 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  body {
+    background-image: linear-gradient(
+        rgba(23, 22, 22, 0.2),
+        rgba(23, 22, 22, 0.2)
+      ),
+      url("images/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    height: 15vh;
+    background-color: #111111;
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 30%;
+    height: 80%;
+  }
+  
+  .main {
+    background-color: white;
+    padding: 30px;
+    width: 90vw;
+  }
+  
+  .container {
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(500px, auto);
+    overflow: hidden;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .item-1 {
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.6),
+        rgba(21, 21, 21, 0.6)
+      ),
+      url("images/Banner\ \(1\).jpg");
+    background-size: cover;
+    width: 50vw;
+    z-index: 1;
+    transition: all 500ms ease-in;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .item-2 {
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.6),
+        rgba(21, 21, 21, 0.6)
+      ),
+      url("images/Banner\ \(2\).jpg");
+    background-size: cover;
+    width: 50vw;
+    z-index: 2;
+    transition: all 500ms ease-in;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .item-3 {
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.6),
+        rgba(21, 21, 21, 0.6)
+      ),
+      url("images/Banner\ \(3\).jpg");
+    background-size: cover;
+    width: 50vw;
+    z-index: 3;
+    transition: all 500ms ease-in;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .item-4 {
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.6),
+        rgba(21, 21, 21, 0.6)
+      ),
+      url("images/Banner\ \(4\).jpg");
+    background-size: cover;
+    width: 50vw;
+    z-index: 4;
+    transition: all 500ms ease-in;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .item-5 {
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.6),
+        rgba(21, 21, 21, 0.6)
+      ),
+      url("images/banner-5.jpg");
+    background-size: cover;
+    width: 50vw;
+    z-index: 5;
+    transition: all 500ms ease-in;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .item-1:hover {
+    transform: translateX(-50px);
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.7),
+        rgba(21, 21, 21, 0.7)
+      ),
+      url("images/Banner\ \(1\).jpeg");
+  }
+  
+  .item-2:hover {
+    transform: translateX(-50px);
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.7),
+        rgba(21, 21, 21, 0.7)
+      ),
+      url("images/Banner\ \(2\).jpg");
+  }
+  
+  .item-3:hover {
+    transform: translateX(-50px);
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.7),
+        rgba(21, 21, 21, 0.7)
+      ),
+      url("images/Banner\ \(3\).jpg");
+  }
+  
+  .item-4:hover {
+    transform: translateX(-50px);
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.7),
+        rgba(21, 21, 21, 0.7)
+      ),
+      url("images/Banner\ \(4\).jpg");
+  }
+  
+  .item-5:hover {
+    transform: translateX(-50px);
+    background-image: linear-gradient(
+        rgba(21, 21, 21, 0.7),
+        rgba(21, 21, 21, 0.7)
+      ),
+      url("images/banner-5.jpg");
+    opacity: 100%;
+  }
+  
+  .posts {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+  
+  .post {
+    width: 100%;
+    height: 60vh;
+    margin-top: 10vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .post > .content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #333333;
+    line-height: 1.2;
+  }
+  
+  .post > .content:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    place-content: center;
+    background-color: #111111;
+    width: 97vw;
+    height: 10vh;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 0px;
+  }
+  
+  @media (max-width: 1000px) {
+    .container {
+      background-color: aqua;
+      grid-template-columns: repeat(5, 1fr);
+    }
+  
+    .item-1 {
+      width: 20vw;
+    }
+  
+    .item-2 {
+      width: 20vw;
+    }
+  
+    .item-3 {
+      width: 20vw;
+    }
+    .item-4 {
+      width: 50vw;
+    }
+    .item-5 {
+      width: 20vw;
+    }
+  }
+  
+  @media (max-width: 786px) {
+    .main {
+      background-color: white;
+      padding: 30px;
+      padding-bottom: 25vh;
+      width: 80vw;
+      
+    }
+  
+    .posts {
+      width: 80vw;
+    }
+    .post {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30vh;
+      width: 100%;
+    }
+  
+    .img {
+      width: 100%;
+      height: 60vh;
+    }
+  
+    .post > .content {
+      width: 100%;
+      height: 40vh;
+      font-size: 2vw;
+      line-height: 1.2;
+    }
+  
+    .footer {
+      margin-top: 4vh;
+    }
+  }
+  

@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: black;
+}
+
+/* FLEX CONTAINER */
+
+.nav{
+    /* MAKE UL AS FLEX CONTAINER */
+    display: flex;
+    /* ITS DEFAULT DIRECTION */
+    flex-direction: row;
+    /* GIVE IT SOME HEIGHT */
+    height: 60px;
+    /* THIS WILL ALIGHN ITEM W.R.T MAIN AXIS */
+    justify-content: space-evenly;
+    /* THIS WILL ALIGN THEM W.R.T CROSS AXIS */
+    align-items: center;}
+
+/* MAKE LIST VERTICAL */
+ul li{
+    display: inline;
+}
+
+/* CUSTOOM STYLE FOR LOGO , BUTTON AND INPUT TAG */
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo
+{
+    color: orangered;
+    font-size: 50px;
+    font-weight: bold;
+    cursor:default;
+}
+
+.input{
+text-align: center;
+width: 300px;
+height:50px ;
+}
+
+input:hover{
+    background-color: rgba(150, 148, 148,0.3);
+    color: black;
+}
+
+button{
+    background-color: orangered;
+    width: 52px;
+    height:52px ;
+    color: white;
+    padding: 5px;
+    border-color: brown;
+    border-style: double;
+    cursor: pointer;
+}

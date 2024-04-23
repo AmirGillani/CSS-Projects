@@ -1,0 +1,29 @@
+*{
+    font-family: "poppins";
+    color: blueviolet;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline purple solid;
+    font-weight: normal;
+    color: purple;
+}
+
+p{
+    text-align: justify;
+    text-decoration: underline purple solid;
+    font-weight: lighter;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 23px;
+    letter-spacing: 20px;
+    background-color: white;
+}
+
+div{
+    width: 1000px;
+    height: 1000px;
+}
